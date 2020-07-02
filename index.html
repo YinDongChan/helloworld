@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+/* Import our font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+
+body{
+  margin:0;
+}
+
+/*Header Section*/
+header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+ height:100vh;
+ margin:0;
+  
+ background-color: rebeccapurple;
+ background-image: url('https://picsum.photos/id/109/500/500');
+ background-blend-mode:screen;
+ background-size: cover;
+ background-position: center;  
+}
+  
+header h1 {
+  font-variant: small-caps;
+  font-size: 35px;
+  color: #443e3e;}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  background-color: pink
+}
+
+nav li {
+ flex: auto;
+}
+
+.wide {
+ flex-grow: 2;
+}
+
+nav a {
+  padding: 0.75em 1em;
+  display: block;
+  
+  background-color: rebeccapurple;
+  background-image: linear-gradient(lightpink, grey);
+  border: 1px solid white;
+  
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-image: linear-gradient(rebeccapurple, skyblue);
+}
+
+nav a:active {
+  background-image: linear-gradient(rebeccapurple, lightgrey);
+}
+
+.current {
+  background-image: linear-gradient(rebeccapurple, skyblue);
+}
+
+header img{   
+  border-radius: 50%;
+  shape-outside: circle(50%);
+ }
+
+/*Footer Section*/
+footer{
+  padding: 1em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+/*Main Section*/
+main{
+  max-width: 80ch;
+  margin: auto; /*for center outside the box*/
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 1.7; /*default:1.2*/
+  background: linear-gradient(#e66465, #9198e5); 
+}
+
+img {
+  width: 150px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+  padding: 10px;
+}
+
+
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li class = "wide"><a href="#contact">Contact US</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#register">Register</a></li>
+         </ul>
+       </nav>
+      
+      <header>
+        <img src="https://picsum.photos/id/125/200/200" alt="photo of a creek side from Lorem picsum">
+        <h1>Installation Fundementals</h1>
+      </header>
+      
+      <main>
+        <img src="https://picsum.photos/id/137/200/200" alt="photo of a hillside from Lorem picsum">
+      
+        <h2><code>Electrical installations and "third fixes"</code></h2>
+      
+        <p>Electrical installations can be further divided into first, second and third fixes:<sup>[2]</sup></p>
+      
+        <ul>
+          <li>First Fix: Positioning and securing of accessory boxes</li>
+          <li>Second Fix: Preparation and positioning of cables</li>
+          <li> Third Fix: Termination of conductors to accessories and protective devices</li>
+        </ul>
+      
+        <p>As modern society's reliance on technology increases, the need to properly house sensitive electronic equipment becomes a greater concern. The installation of this equipment takes place in the "third fix" segment of a construction project. It is especially important that installation of sensitive electronic equipment be installed only when a construction site is dust-controlled and prepared for what would be considered "dust free" conditions. For example, for the modern computer <a href ="https://en.wikipedia.org/wiki/Server_room "> server room </a>, equipment would be installed only when dust and atmospheric conditions are minimized and controlled. Similar to the atmospheric needs of medical and scientific research laboratories, the production of <a href =" https://en.wikipedia.org/wiki/Electronic_component"> discrete </a> semiconductor <a href ="https://en.wikipedia.org/wiki/Semiconductor_device "> devices </a> and integrated circuits is undertaken in a cleanroom atmosphere where low levels of environmental pollutants such as particulates and airborne microbes are strictly minimised and most preferably eliminated.<sup>[3] </sup></p>
+      
+        <p>The UK national building specifications, British Standard 5295:1989, specifically addresses "clean room" environments serving electronics manufacturers, as well as the pharmaceutical industry (the Pharmaceutical Industry has, for some time, worked to the ISO standard 14644 which is subtly different). Standard 5295:1989 specifically pertains to constructed interior spaces where higher than normal environmental standards must be maintained, in order to control particulate contamination, temperature and humidity. It is only at the third fix stage, when building site conditions are rendered virtually dust free, so as to minimise the introduction, generation and retention of particles which may contaminate equipment serving the electronics and pharmaceuticals manufacturing process, that the build-out of "clean room" spaces can commence.<sup>[4] </sup></p>
+      </main>
+      
+      <footer>
+        &copy; 2020 Yin Dong
+      </footer>
+    
+</body>
+</html>
